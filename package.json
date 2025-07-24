@@ -11,6 +11,17 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
     "mongoose": "^8.16.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saiyanav/templateforshayaan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saiyanav/templateforshayaan/issues"
+  },
+  "homepage": "https://github.com/Saiyanav/templateforshayaan#readme"
 }

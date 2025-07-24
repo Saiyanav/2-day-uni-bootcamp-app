@@ -1,6 +1,7 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 
-const MONGO_URI = "mongodb+srv://arnavspartan:<db_password>@cluster0.b38i6pp.mongodb.net/sharda_db?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI;
 const mongoDB = async () => {
     try {
         await mongoose.connect(MONGO_URI);
@@ -12,3 +13,4 @@ const mongoDB = async () => {
 }
 
 module.exports = mongoDB;
+
